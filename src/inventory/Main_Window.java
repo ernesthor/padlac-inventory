@@ -954,7 +954,7 @@ public class Main_Window extends javax.swing.JFrame {
         });
 
         chkbox_faf.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        chkbox_faf.setText("FURN. & FIXT.");
+        chkbox_faf.setText("Furnitures and Fixtures");
         chkbox_faf.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 chkbox_fafActionPerformed(evt);
