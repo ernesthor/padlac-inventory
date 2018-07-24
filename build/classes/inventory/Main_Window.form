@@ -251,6 +251,7 @@
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
+<<<<<<< HEAD
                                   <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                                   <Component id="btn_matAdd" min="-2" pref="100" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -266,6 +267,9 @@
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+=======
+                                  <EmptySpace max="-2" attributes="0"/>
+>>>>>>> 42b8773083d8ff5afa90b23dd26ad0ece6f5f648
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
                                           <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
@@ -280,13 +284,32 @@
                                           </Group>
                                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="mat_qty" min="-2" pref="120" max="-2" attributes="0"/>
                                               <Component id="mat_unit" min="-2" pref="120" max="-2" attributes="0"/>
                                               <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
                               </Group>
+<<<<<<< HEAD
+=======
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="mat_name" min="-2" pref="120" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="mat_qty" min="-2" pref="120" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="mat_loc" min="-2" pref="120" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+>>>>>>> 42b8773083d8ff5afa90b23dd26ad0ece6f5f648
                           </Group>
                           <EmptySpace pref="23" max="32767" attributes="0"/>
                       </Group>
@@ -961,7 +984,11 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Jura" size="36" style="1"/>
             </Property>
+<<<<<<< HEAD
             <Property name="text" type="java.lang.String" value="         Edit Items"/>
+=======
+            <Property name="text" type="java.lang.String" value="Modify Items"/>
+>>>>>>> 42b8773083d8ff5afa90b23dd26ad0ece6f5f648
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
