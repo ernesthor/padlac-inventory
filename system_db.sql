@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -- phpMyAdmin SQL Dump
 -- version 4.8.2
 -- https://www.phpmyadmin.net/
@@ -27,6 +28,9 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `furn_inv`
 --
+=======
+CREATE DATABASE system_db;
+>>>>>>> 90640aebe3d4a83597767417d8f784e55f3f2d0e
 
 CREATE TABLE `furn_inv` (
   `ID` int(10) UNSIGNED NOT NULL,
@@ -38,14 +42,18 @@ CREATE TABLE `furn_inv` (
   `prefix` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+<<<<<<< HEAD
 --
 -- Dumping data for table `furn_inv`
 --
+=======
+>>>>>>> 90640aebe3d4a83597767417d8f784e55f3f2d0e
 
 INSERT INTO `furn_inv` (`ID`, `name`, `location`, `status`, `type`, `remarks`, `prefix`) VALUES
 (1, 'Sofa Desk', 'Valenzuela', 'Deployed', 'Desk', 'Red', 'F&F'),
 (2, 'Cabinet', 'Antipolo', 'Not yet assembled', 'Cabinet', 'Stupid jrm', 'F&F');
 
+<<<<<<< HEAD
 -- --------------------------------------------------------
 
 --
@@ -87,6 +95,8 @@ INSERT INTO `inventory` (`id`, `name`, `location`, `quantity`, `unit`, `dop`, `a
 --
 -- Table structure for table `mat_inv`
 --
+=======
+>>>>>>> 90640aebe3d4a83597767417d8f784e55f3f2d0e
 
 CREATE TABLE `mat_inv` (
   `ID` int(10) UNSIGNED NOT NULL,
@@ -98,21 +108,27 @@ CREATE TABLE `mat_inv` (
   `prefix` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+<<<<<<< HEAD
 --
 -- Dumping data for table `mat_inv`
 --
+=======
+>>>>>>> 90640aebe3d4a83597767417d8f784e55f3f2d0e
 
 INSERT INTO `mat_inv` (`ID`, `name`, `location`, `quantity`, `unit`, `remarks`, `prefix`) VALUES
 (1, 'Cement', 'Manila', 50, 'kilos', 'paid', 'MAT'),
 (2, 'Hollow Blocks', 'Marikina', 1000, 'pcs', 'delivered using fuzo truck', 'MAT'),
 (3, 'Screw Driver', 'Quezon', 5, 'pcs', 'Heaven', 'MAT');
 
+<<<<<<< HEAD
 -- --------------------------------------------------------
 
 --
 -- Table structure for table `tool_inv`
 --
 
+=======
+>>>>>>> 90640aebe3d4a83597767417d8f784e55f3f2d0e
 CREATE TABLE `tool_inv` (
   `ID` int(10) UNSIGNED NOT NULL,
   `name` varchar(200) NOT NULL,
@@ -125,14 +141,18 @@ CREATE TABLE `tool_inv` (
   `prefix` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+<<<<<<< HEAD
 --
 -- Dumping data for table `tool_inv`
 --
 
+=======
+>>>>>>> 90640aebe3d4a83597767417d8f784e55f3f2d0e
 INSERT INTO `tool_inv` (`ID`, `name`, `location`, `dop`, `amount`, `history`, `status`, `remarks`, `prefix`) VALUES
 (1, 'Hammer', 'QC-Paloma', '2015-07-03', 350, 'Always Returned', 'In Use', 'Dents', 'T&E'),
 (2, 'Cement Mixer', 'Zambales', '2018-07-21', 100000, 'Delivered to jerome', 'Ok', 'Rusty', 'T&E');
 
+<<<<<<< HEAD
 --
 -- Indexes for dumped tables
 --
@@ -193,3 +213,23 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+=======
+ALTER TABLE `furn_inv`
+  ADD PRIMARY KEY (`ID`);
+
+ALTER TABLE `mat_inv`
+  ADD PRIMARY KEY (`ID`);
+
+ALTER TABLE `tool_inv`
+  ADD PRIMARY KEY (`ID`);
+
+ALTER TABLE `furn_inv`
+  MODIFY `ID` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+ALTER TABLE `mat_inv`
+  MODIFY `ID` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+ALTER TABLE `tool_inv`
+  MODIFY `ID` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+COMMIT;
+>>>>>>> 90640aebe3d4a83597767417d8f784e55f3f2d0e

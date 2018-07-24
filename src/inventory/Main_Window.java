@@ -946,7 +946,7 @@ public class Main_Window extends javax.swing.JFrame {
         jScrollPane3.setViewportView(inv_remarks);
 
         chkbox_mat.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        chkbox_mat.setText("MATERIALS");
+        chkbox_mat.setText("Materials");
         chkbox_mat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 chkbox_matActionPerformed(evt);
@@ -954,7 +954,7 @@ public class Main_Window extends javax.swing.JFrame {
         });
 
         chkbox_faf.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        chkbox_faf.setText("FURN. & FIXT.");
+        chkbox_faf.setText("Furnitures and Fixtures");
         chkbox_faf.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 chkbox_fafActionPerformed(evt);
@@ -962,7 +962,7 @@ public class Main_Window extends javax.swing.JFrame {
         });
 
         chkbox_tae.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        chkbox_tae.setText("TOOLS AND EQPMT");
+        chkbox_tae.setText("Tools and Equipment");
         chkbox_tae.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 chkbox_taeActionPerformed(evt);
