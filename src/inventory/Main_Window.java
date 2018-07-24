@@ -913,7 +913,7 @@ public class Main_Window extends javax.swing.JFrame {
         jScrollPane1.setViewportView(JTable_Products);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel1.setText("Edit Items");
+        jLabel1.setText("Modify Items");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
         jLabel2.setText("Name:");
